@@ -1,0 +1,114 @@
+body{
+      margin: 0;
+      padding: 0;
+
+}
+
+img{
+      width: 50vw;
+      height: 100vh;
+}
+
+
+.submit{
+      text-size-adjust: 100px;
+      width: 30vw;
+      height: 10vh;
+      margin: 80px;
+
+      background-color: orange;
+      border-color: orange;
+      color: black;
+      text-align: center;
+
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 200%;
+}
+
+mark{
+      background-color: orange;
+
+}
+
+.container{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+}
+
+
+
+.box{
+      width: 100vw;
+      height: 100vh;
+      border-radius: 0px;
+      margin: 50px;
+      padding: 0;
+
+      /* Cores */
+      background-color: white;
+      border-color: gray;
+      color: black;
+
+      /* FlexBox */
+
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      align-items: left;
+}
+
+input{
+      height: 3vh;
+      border-radius: 10px;
+      margin: 5px;
+      
+}
+
+.short_box{
+
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      align-items: center;
+}
+
+.img2{
+      width: 2vw;
+      height: 2vh;
+      position: relative;
+      right: 45px;
+      top: 75px;
+
+}
+
+.img3{
+      width: 30vw;
+      height: 30vh;
+      position: relative;
+      right: 1450px;
+      top: 150px;
+
+}
+
+.mark_box{
+width: 2vw;
+      height: 2vh;
+      border-radius: 0;
+      border: 2px solid gray;
+      margin: 5px;
+      padding: 0;
+
+      /* Cores */
+      background-color: white;
+      border-color: gray;
+      color: white;
+
+      /* FlexBox */
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
