@@ -7,6 +7,7 @@ body{
 img{
       width: 50vw;
       height: 100vh;
+      filter: sepia(90%) saturate(200%);
 }
 
 
@@ -14,7 +15,7 @@ img{
       text-size-adjust: 100px;
       width: 30vw;
       height: 10vh;
-      margin: 80px;
+      margin: 100px;
 
       background-color: orange;
       border-color: orange;
@@ -32,18 +33,42 @@ mark{
 
 .container{
       display: flex;
-      flex-direction: row;
-      justify-content: space-around;
+      flex-direction: row; 
+      
 }
 
+.box1{
+      width: 50vw;
+      height: 100vh;
+      padding: 0;
 
+      /* Cores */
+      
+      background-image: url(./Assets/Escritório.jfif);
+      background-size: 100vh 100vw;
+      background-repeat: no-repeat;
+      background-position: center right;
+      
+      
+      filter: sepia(70%) saturate(160%);
 
-.box{
-      width: 100vw;
+      border-color: gray;
+      color: black;
+
+      /* FlexBox */
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center top;
+      align-items: center;
+}
+
+.box2{
+      width: 50vw;
       height: 100vh;
       border-radius: 0px;
-      margin: 50px;
       padding: 0;
+      margin: 0 0 0 50px;
 
       /* Cores */
       background-color: white;
@@ -54,8 +79,8 @@ mark{
 
       display: flex;
       flex-direction: column;
-      justify-content: left;
-      align-items: left;
+      justify-content: right;
+      align-items: right;
 }
 
 input{
@@ -78,37 +103,16 @@ input{
       height: 2vh;
       position: relative;
       right: 45px;
-      top: 75px;
+      top: 30px;
 
 }
 
 .img3{
-      width: 30vw;
-      height: 30vh;
-      position: relative;
-      right: 1450px;
-      top: 150px;
-
+      width: 25vw;
+      height: 25vh;
+      position: absolute;
+      top: 50px;
+    
 }
 
-.mark_box{
-width: 2vw;
-      height: 2vh;
-      border-radius: 0;
-      border: 2px solid gray;
-      margin: 5px;
-      padding: 0;
-
-      /* Cores */
-      background-color: white;
-      border-color: gray;
-      color: white;
-
-      /* FlexBox */
-
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-}
 
